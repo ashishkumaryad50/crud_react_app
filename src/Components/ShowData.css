@@ -1,0 +1,118 @@
+.showdata {
+  padding: 1rem;
+  background-color: rgb(31, 31, 31);
+  margin: 2rem auto;
+  width: 50rem;
+  max-width: 95%;
+  border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+}
+.showdata-list {
+  list-style: none;
+  padding: 0;
+}
+
+.showdata-list__fallback {
+  color: white;
+  text-align: center;
+}
+.showdata-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(187, 89, 89, 0.671);
+  padding: 0.5rem;
+  margin: 1rem 0;
+    margin-right: 2.5rem;
+  border-radius: 12px;
+  background-color: #30add3;
+}
+
+/* .showdata-item__description {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-end;
+  flex-flow: column-reverse;
+  justify-content: flex-start;
+  flex: 1;
+} */
+
+.showdata-item h2 {
+  color: #3a3a3a;
+  font-size: 1rem;
+  flex: 1;
+  margin: 0 1rem;
+  color: white;
+}
+
+.showdata-item__btn {
+  font-size: 1rem;
+  /* font-weight: bold; */
+  color: white;
+  background-color: #d16c5e;
+  border: 1px solid white;
+  padding: 0.5rem;
+  border-radius: 50px;
+}
+
+.showdata-item__btn:hover,
+.showdata-item__btn:active {
+  background-color: #fc0404;
+}
+.showdata-item__btnRed ,
+.showdata-item__btnBlue {
+  font-size: 1rem;
+  color: white;
+  border: 1px solid white;
+  padding: 0.5rem;
+  width: 100px;
+  margin-right: 5px;
+  border-radius: 50px;}
+
+.showdata-item__btnRed:hover,
+.showdata-item__btnRed:active {
+  background-color: #fc0404;
+}
+
+.showdata-item__btnRed {
+  background-color: #d16c5e;
+}
+.showdata-item__btnBlue {
+  background-color: rgba(96, 106, 238, 0.932);
+}
+
+.showdata-item__btnBlue:hover,
+.showdata-item__btnBlue:active {
+  border-color: white;
+  background-color: #0429fc;
+}
+
+@media (min-width: 580px) {
+  /* .showdata-item__description {
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex: 1; */
+  /* } */
+
+  .showdata-item__description h2 {
+    font-size: 1.0rem;
+  }
+
+  .showdata-item__butRed ,
+  .showdata-item__butBlue{
+  width: 70px;
+  margin-right: -100px;
+  border-radius: 50px;
+}
+
+  .showdata-item__btn,
+  .showdata-item__butBlue,
+  .showdata-item__butRed {
+    font-size: 1.25rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 50px;
+  }
+}
+
